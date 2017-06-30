@@ -705,10 +705,8 @@ void CJuego::Datos()
 
 	int cont;
 	for(int i=0;i<Enemigo->get_n();i++)
-	
-	 
-	if(con == 5)
-	{Pacman->Dibujar_Actpac(); act=1; con++;}
+		if(con == 4)
+		{Pacman->Dibujar_Actpac(); act=1; con++;}
 
 	
 
